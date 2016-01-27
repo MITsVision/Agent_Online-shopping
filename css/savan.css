@@ -1,0 +1,145 @@
+a.five:link{color: #0000ff; text-decoration:none}
+a.five:visited{color: #ffff0a; text-decoration:none}
+a.five:hover{text-decoration: none}
+
+div.one{
+    background-color: #b0c4de;
+	text-align:center;
+	background-image: url("images/page2_img4.jpg");
+	width: 100%;
+	height: 140px;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+
+div.cartl{
+
+    line-height:30px;
+    background-color:#eeeeee;
+    height:550px;
+    width:33.5%;
+    float:left;
+    padding:5px;
+}
+div.cartr{
+
+    line-height:30px;
+    background-color:#eeeeee;
+    height:550px;
+    width:65%;
+    float:right;
+    padding:5px;
+}
+
+
+.carto{
+width:190px;
+height:50px;
+font-size:20px;
+background-color:orange;
+border-radius:10px;
+}
+.carto1{
+width:190px;
+height:50px;
+font-size:20px;
+background-color:green;
+border-radius:10px;
+}
+
+div.two{
+    background-color: #F5FFFA;
+	width: 80%;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+div.three{
+    background-color: #226699;
+	}
+
+ul {
+  color: #22af0a;
+  text-align: center;
+  display: inline;
+  margin: 10;
+  padding: 15px 0px 17px 0;
+  list-style: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+ul li{
+  font: bold 22px/28px sans-serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  background: #440044;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+ul li:hover {
+  background: #160011;
+  color: #11aa77;
+}
+ul li ul{
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li{ 
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 10px 0 #000;
+}
+ul li ul li:hover { background: ; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+table.one{
+padding-top:1px;
+border:;
+border-collapse:collapse;
+width:40%;
+}
+
+
+img.one
+{
+height:300px;
+width: 350px;
+border:0px;
+border-color:;
+border-bottom-style:;
+
+border-radius:10px;
+
+opacity:1;
+
+box-shadow:1px 1px 1px 2px purple;
+
+border:1px solid green;
+}
+
+
